@@ -1,0 +1,22 @@
+"use strict";
+let lname;
+lname = "John";
+let newname = lname.toUpperCase();
+console.log(newname);
+let age;
+age = 25;
+age = 25.5;
+let dob = "25";
+let result = parseInt(dob);
+console.log(result);
+let isValid = false;
+console.log(isValid);
+let empList;
+empList = ["John", "Mark", "Symon"];
+let numList;
+numList = [1, 2, 5, 8, 6];
+let results = numList.filter((num) => num > 2);
+let num = numList.find((num) => num === 2);
+console.log(results);
+console.log(num);
+//lname = 10
